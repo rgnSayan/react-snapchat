@@ -1,0 +1,29 @@
+.chatInput {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px;
+  border-bottom: 1px solid whitesmoke;
+  cursor: pointer;
+}
+.chatInput__avatar {
+  height: 35px !important;
+  width: 35px !important;
+}
+.chatInput__readIcon {
+  color: #ed3b55;
+}
+.chatInput__info {
+  padding-left: 5px;
+  flex: 1;
+}
+.chatInput__info > h4 {
+  font-size: 11px;
+  font-weight: 500;
+}
+.chatInput__info > p {
+  font-size: 9px;
+}
+.chatInput:hover {
+  opacity: 0.8;
+}
